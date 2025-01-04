@@ -1,2 +1,17 @@
-qualquer coisa
-adicionei isso
+sudo dnf install git
+
+#COnfiguração inicial do git
+
+git init
+git config --global user.name "Davi Dias"
+git config --global user.email "davifernandosousadias18@gmail.com"
+git remote add origin git@github.com:URL-COPIADA-GIT
+
+# Editei o projeto
+git add .
+git commit -m "msg"
+git push origin master
+
+# Chaves ssh
+
+senha padrao
